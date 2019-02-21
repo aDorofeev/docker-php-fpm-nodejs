@@ -1,4 +1,4 @@
-FROM adorofeev/php-fpm:php73
+FROM adorofeev/php-fpm:php7.3
 
 # switch to root (parent image uses www-data user)
 USER root

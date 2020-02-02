@@ -4,7 +4,7 @@ FROM adorofeev/php-fpm:php7.3
 USER root
 
 # install nodejs
-RUN curl -s https://deb.nodesource.com/setup_8.x | bash
+RUN curl -s https://deb.nodesource.com/setup_10.x | bash
 RUN install_packages nodejs make g++
 
 # install yarn
